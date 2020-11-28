@@ -1,0 +1,47 @@
+.button.primary {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    outline: none;
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
+}
+
+.button.filter {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    outline: none;
+    color: var(--title-text-color);
+    background-color: var(--section-background-color);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    color: var(--accent-color);
+    background-color: var(--main-background-color);
+}
+
+.filter-list .button.filter:hover,
+.filter-list .button.filter:focus {
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
