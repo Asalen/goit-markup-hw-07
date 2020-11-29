@@ -9,9 +9,6 @@ html {
 body {
     font-family: Roboto, sans-serif;
     @include fonts(14px, 1.71, 0.03em);
-    // font-size: 14px;
-    // line-height: 1.71;
-    // letter-spacing: 0.03em;
     color: $primary-text-color;
     background-color: $main-background-color;
 }
