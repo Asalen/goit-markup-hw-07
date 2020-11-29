@@ -19,7 +19,7 @@
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: var(--title-text-color);
+        color: $title-text-color;
     }
 }
 
@@ -61,5 +61,5 @@
 .dep {
     font-size: 16px;
     line-height: 1.87;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }

@@ -6,7 +6,7 @@
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    background-color: var(--main-background-color);
+    background-color: $main-background-color;
     .logo {
         margin-right: 93px;
     }
@@ -39,7 +39,7 @@
 .mail-svg,
 .phone-svg {
     display: inline-flex;
-    fill: var(--primary-text-color);
+    fill: $primary-text-color;
     margin-right: 10px;
 }
 
@@ -50,7 +50,7 @@
     &:focus .mail-svg,
     &:hover .phone-svg,
     &:focus .phone-svg {
-        fill: var(--accent-color);
+        fill: $accent-color;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
@@ -62,11 +62,11 @@
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: var(--some-text-color);
+    color: $some-text-color;
 }
 
 .logo-accent {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .logo,

@@ -19,7 +19,7 @@
         line-height: 1.56;
         letter-spacing: 0.03em;
         font-weight: 400;
-        color: var(--main-background-color);
+        color: $main-background-color;
     }
     .box-link:hover & {
         transform: translateY(0%);

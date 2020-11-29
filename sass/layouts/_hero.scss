@@ -1,7 +1,7 @@
 .hero {
     height: 600px;
     text-align: center;
-    background-color: var(--secondery-background-color);
+    background-color: $secondery-background-color;
     background-image: radial-gradient(circle at center, rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 40%), url(../images/studio-img/bg-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +14,6 @@
         line-height: 1.36;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: var(--main-background-color);
+        color: $main-background-color;
     }
 }
