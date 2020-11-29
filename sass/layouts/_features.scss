@@ -5,18 +5,17 @@
 
 .content-box {
     flex-basis: 270px;
-}
-
-.content-box::before {
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--section-background-color);
+    &::before {
+        display: block;
+        content: "";
+        height: 120px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: var(--section-background-color);
+    }
 }
 
 .icon-antenna::before {

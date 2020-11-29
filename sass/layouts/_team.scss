@@ -1,9 +1,8 @@
 .team {
     background-color: var(--section-background-color);
-}
-
-.team .section-title {
-    margin-bottom: 50px;
+    .section-title {
+        margin-bottom: 50px;
+    }
 }
 
 .card {
@@ -14,10 +13,9 @@
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     background-color: var(--main-background-color);
-}
-
-.card .img {
-    margin-bottom: 30px;
+    .img {
+        margin-bottom: 30px;
+    }
 }
 
 .team-list {
@@ -25,12 +23,11 @@
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
-}
-
-.team-list .title {
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.188;
-    color: var(--title-text-color);
+    .title {
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.188;
+        color: var(--title-text-color);
+    }
 }
